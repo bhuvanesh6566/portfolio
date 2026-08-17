@@ -2,12 +2,13 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bhuvanesh6566.github.io/portfolio",
+
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-icons": "^5.7.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "vercel": "^59.1.3"
   },
   "scripts": {
     "predeploy": "npm run build",
