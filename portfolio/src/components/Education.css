@@ -1,0 +1,46 @@
+.edu-section { background: var(--card); }
+
+.edu-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.edu-header h3 { font-size: 1.1rem; font-weight: 700; }
+
+.edu-school { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+
+.edu-date {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.edu-details { display: flex; flex-direction: column; gap: 12px; }
+
+.edu-gpa { font-size: 0.95rem; color: var(--muted); }
+
+.edu-courses { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+.course-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-right: 4px;
+}
