@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
         <div className="hero-photo-wrap">
           <div className="hero-photo-ring">
-            <img src="/profile.png" alt="Bhuvaneshwaran S" className="hero-photo" />
+            <img src={`${process.env.PUBLIC_URL}/profile.png`} alt="Bhuvaneshwaran S" className="hero-photo" />
           </div>
           <div className="hero-photo-badge">
             <span className="dot" />

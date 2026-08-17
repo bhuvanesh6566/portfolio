@@ -8,7 +8,7 @@ const projects = [
     description:
       'Built an AI-powered crash detection system using YOLOv8 to identify accidents from video feeds and instantly send GPS-tagged emergency alerts via Telegram to responders.',
     stack: ['Python', 'YOLOv8', 'GPS', 'Telegram API'],
-    images: ['/pro1.jpeg', '/pro1a.jpeg'],
+    images: [`${process.env.PUBLIC_URL}/pro1.jpeg`, `${process.env.PUBLIC_URL}/pro1a.jpeg`],
     github: 'https://github.com/bhuvanesh6566',
     demo: null,
   },
@@ -17,7 +17,7 @@ const projects = [
     description:
       'Developed a live bus tracking web application that shows real-time bus locations on a map, helping students and commuters track arrival times with Firebase-powered updates.',
     stack: ['React', 'Firebase'],
-    images: ['/pro2.jpeg', '/pro2a.jpeg'],
+    images: [`${process.env.PUBLIC_URL}/pro2.jpeg`, `${process.env.PUBLIC_URL}/pro2a.jpeg`],
     github: 'https://github.com/bhuvanesh6566',
     demo: null,
   },
@@ -26,7 +26,7 @@ const projects = [
     description:
       'Designed a smart traffic management system that uses machine learning to dynamically adjust signal timings based on real-time vehicle density, reducing congestion.',
     stack: ['React', 'Machine Learning'],
-    images: ['/pro3.jpeg', '/pro3a.jpeg'],
+    images: [`${process.env.PUBLIC_URL}/pro3.jpeg`, `${process.env.PUBLIC_URL}/pro3a.jpeg`],
     github: 'https://github.com/bhuvanesh6566',
     demo: null,
   },
